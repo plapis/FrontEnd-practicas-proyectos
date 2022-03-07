@@ -1,0 +1,14 @@
+body{
+    background-image: url("images/aaa.jpg");
+}
+
+.fondo{
+    background-color: white;
+}
+
+#pastel{
+    background-image: url("images/images.jpg");
+    background-repeat: no-repeat;
+    width: 1290px;
+    height: 742px;
+}
