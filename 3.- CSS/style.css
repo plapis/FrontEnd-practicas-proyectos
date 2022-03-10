@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap) format("truetype");
+  }
+
+*{
+    font-family: Roboto;
+    color: rgb(66, 66, 66);
+}
+
+.prueba{
+    border: 1px solid;
+}
+
+.topBar a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.vaccination{
+    margin-left: 200px;
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.topBar{
+    height: 50px;
+    width: auto;
+}
+
+.topBar-right{
+    float: right;
+    
+}
+
+.hoaxBuster{
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px #333;
+    float: right ;
+    margin-right: 200px;
+    border-radius: 5px;
+}
+
+h1{
+    color: darkblue;
+    font-size:50px;
+}
+
+h2{
+    color: darkblue;
+}
+
+.fv{
+    margin-right: 50px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section1{
+    margin: 20px;
+}
+
+.nurseimg{
+    background-image: linear-gradient(to right,rgb(12 149 229),rgb(54 96 218));
+    width: 500px;
+    border-radius: 5px;
+}
+
+.submit{
+    float: right;
+
+}
+
+.shedule{
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20PX;
+}
+
+.selectvaccines{
+    font-weight: 450;
+}
+
+.bluebond{
+    font-weight: bold;
+    color: rgb(1, 1, 100);
+}
+
+.marcas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text1{
+    margin-left: 300px;
+    line-height: 1.6;
+}
+
+.girl2{
+    /*background-image: linear-gradient(to right,rgb(12 149 229),rgb(54 96 218));
+    background-size: contain;
+    max-height: 120px;*/
+    background: linear-gradient(360deg, rgb(12 149 229) 80%, white 20%);
+}
+
+.girl2div{
+    margin-left: 30px;
+}
+
+.girl2div p{
+    line-height: 1.6;
+}
+
+.girl2margin{
+    margin: 25px;
+}
+
+.flexContainer-mini{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divmini{
+    border: 1px solid lightgrey;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.div4{
+    width: 300px;
+}
+
+.divminibottom{
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.divminibottom a{
+    color: blue;
+    text-decoration: none;
+}
+
+.submitbottom{
+    margin-left: 50px;
+    background-color: blue;
+    margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #333;
+}
+
+.submitbottom-txt{
+    text-decoration: none;
+    color: white;
+}
+
+.nursenot{
+    background: linear-gradient(360deg, rgb(12 149 229) 80%, white 20%);
+}
+
+.sectionfinal{
+    background-color: rgb(238 243 255);
+}
+
+.flexContainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.divfinal1{
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.divfinal3{
+    margin-right:auto;
+    margin-left: 300px;
+    margin-bottom: 50px;
+
+}
+
+.divfinal2{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: auto;
+}
+
+.divmini-margin1 td{
+    line-height: 1.6;  
+}
+
+.finalvaccination{
+    font-weight: bold;
+    color: blue;
+    margin-top: 50px;
+}
+
+.finalbold{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.divmini-margin{
+    margin: 30px;
+    height: 120px;
+}
+
+.divmini-margin1{
+
+    margin: 10px;
+    height: 190px;
+}
