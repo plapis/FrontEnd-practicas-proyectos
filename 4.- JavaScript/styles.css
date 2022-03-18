@@ -1,0 +1,64 @@
+*{
+    font-weight: bold;
+    
+}
+
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.principal{
+    background: url("images/pokedex.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    height: 600px;
+    width: 840px;
+    margin: auto;               /*Centrar el div*/
+
+}
+
+.divImage{
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    background-color: white;
+    margin-left: 89px;
+    margin-top: 182px;
+    width: 262px;
+    height: 174px;
+    border-radius: 15px;
+}
+
+.pokeImg{
+    width: 100px;
+    
+}
+
+.responsive{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.divInfo{
+    height: 130px;
+    margin-left: 30px;
+}
+
+.divpokeName{
+    margin: auto;
+}
+
+.pokeName{
+    text-align: center;
+}
+
+.estadistica{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 196px;
+}
